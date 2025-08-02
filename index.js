@@ -30,7 +30,7 @@ function typeWriter() {
 window.onload = typeWriter;
 
 // Countdown timer
-const targetDate = new Date("2025-07-31T08:00:00").getTime();
+const targetDate = new Date("2025-08-02T20:00:00").getTime();
 const timer = setInterval(() => {
     const now = new Date().getTime();
     const distance = targetDate - now;
@@ -54,3 +54,4 @@ const timer = setInterval(() => {
 document.getElementById("menuToggle").addEventListener("click", () => {
     document.querySelector(".navbar ul").classList.toggle("active");
 });
+
