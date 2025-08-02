@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shofur</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="stylesheet" href="./resources/css/Fonts/SDGlitch_Demo.ttf">
+    <style>
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+
+        .navbar ul.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <button id="menuToggle">☰</button>
+        <ul>
+            <li class="avatar"><a href="#home">Home</a></li>
+            <li class="avatar"><a href="#shofurinfo">About</a></li>
+            <li class="avatar"><a href="#socials">Socials</a></li>
+        </ul>
+    </nav>
+
+    <!-- Shofur Banner -->
+    <header class="banner">
+        <div id="header">Shofur</div>
+        <p id="motto"></p>
+        <div id="sub">
+            <a href="https://ko-fi.com/shofur" target="_blank">
+                <img src="./resources/images/logo_white_stroke_small.webp" alt="ko-fi" style="width: 10vw; height: auto;">
+            </a>
+        </div>
+    </header>
+
+    <!-- Countdown Timer -->
+    <section>
+        <p id="countdown"></p>
+    </section>
+
+    <!-- Dark Mode Toggle -->
+    <section>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </section>
+
+    <!--Watch me live-->
+    <section id="stream">
+        <h2 style="text-align:center; font-family:'SDGlitch'; color:#ff00ff;">Watch Me Live</h2>
+        <div style="display: flex; justify-content: center;">
+            <iframe
+            src="https://player.twitch.tv/?channel=shofur_&parent=localhost"
+            height="378"
+            width="620"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen="true">
+            </iframe>
+        </div>
+    </section>
+
+    <!--Twitch Videos-->
+    <section id="twitch-video">
+        <h2 style="text-align:center; font-family:'SDGlitch'; color:#00ccff;">Featured YouTube Video</h2>
+        <div style="display: flex; justify-content: center;">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/UmE0h0jSRbw?si=7tdLMAVD6mu7xK21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Shofur info section -->
+    <section class="shofurinfo" id="shofurinfo">
+        <div>
+            <h2>About Shofur</h2>
+            <p id="about">Passionate about space Sims like Elite and Star Citizen, FPS, MMOs, and co-op games. I'm also trying to thrive in the gaming world on a budget! Exploring affordable gaming peripherals that deliver high performance without breaking the bank.
+            <br><br>
+            Join me in epic gaming adventures, where I navigate the cosmos, conquer first-person shooters, and embark on MMO quest. And a journey of budget-friendly gaming setups, proving that you don't need to spend a fortune to level up your gaming experience!</p>
+        </div>
+    </section>
+
+    <!--Social Media Links-->
+    <section class="socials" id="socials">
+        <div>
+            <h2>Socials</h2>
+            <ul class="social-link">
+                <li class="social-link"><a href="https://twitter.com/Shofur_7" target="_blank">Twitter</a></li>
+                <li class="social-link"><a href="https://www.youtube.com/@shofur7" target="_blank">YouTube</a></li>
+                <li class="social-link"><a href="https://www.instagram.com/shofur7" target="_blank">Instagram</a></li>
+                <li class="social-link"><a href="https://discord.gg/0109R0JJVCYPKKj9E" target="_blank">Discord</a></li>
+                <li class="social-link"><a href="https://www.twitch.tv/shofur_" target="_blank">Twitch</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>© 2024 Marcelles Wilson. All Rights Reserved.</p>
+    </footer>
+
+    <!-- External JS -->
+    <script src="./index.js"></script>
+</body>
+</html>
