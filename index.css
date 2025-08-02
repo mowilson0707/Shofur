@@ -1,11 +1,11 @@
 @font-face {
     font-family: Neosonic;
-    src: url('./Fonts/Neosonic-PersonalUse.otf');
+    src: url('./Neosonic-PersonalUse.otf');
 }
 
 @font-face {
     font-family: 'SDGlitch';
-    src: url('./resources/css/fonts/SDGlitchDemo.tff') format('truetype');
+    src: url('./SDGlitchDemo.tff') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -93,7 +93,7 @@ a:hover {
     text-align: center;
     font-family: SDGlitchDemo;
     font-size: 3rem;
-    background-image: url('../images/banner2.jpg');
+    background-image: url('./banner2.jpg');
     background-size: cover;
     background-position: center;
     color: rgb(179, 2, 255);
@@ -224,3 +224,4 @@ section {
     color: rebeccapurple;
     font-family: 'SDGlitchDemo';
 }
+
