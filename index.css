@@ -1,0 +1,226 @@
+@font-face {
+    font-family: Neosonic;
+    src: url('./Fonts/Neosonic-PersonalUse.otf');
+}
+
+@font-face {
+    font-family: 'SDGlitch';
+    src: url('./resources/css/fonts/SDGlitchDemo.tff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+    .banner, .shofurinfo {
+        width: 90%;
+    }
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+
+    .navbar ul.active {
+        display: flex;
+    }
+
+    #menuToggle {
+        background: none;
+        color: white;
+        font-size: 2rem;
+        border: none;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+}
+
+body {
+    font-family: 'SGDlitch', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: #f0f0f0;
+    color: #222;
+}
+
+.dark-mode {
+    background: linear-gradient(135deg, #0d0d0d, #1f0036);
+    color: #e0e0e0;
+}
+
+#about, #motto {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: SDGlitchDemo;
+    border: 3px solid darkviolet;
+    z-index: 10;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar li {
+    display: inline;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: darkviolet;
+}
+
+a:hover {
+    color: #fff;
+    background: #8000ff;
+    text-shadow: 0 0 5px #fff;
+    transition: 0.3s ease;
+}
+
+.banner {
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: SDGlitchDemo;
+    font-size: 3rem;
+    background-image: url('../images/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(179, 2, 255);
+    width: 100%;
+    padding-top: 4rem;
+    margin-top: 50px;
+}
+
+#header {
+    text-transform: uppercase;
+    font-size: 10rem;
+    background-color: rgba(33, 19, 13, 0.5);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.shofurinfo {
+    justify-content: center;
+    align-items: center;
+    color: rebeccapurple;
+    font-size: 1.75rem;
+    font-family: 'Neosonic', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#about {
+    position: relative;
+    margin-top: 3rem;
+    color: rgb(80, 26, 131);
+    font-family: 'Neosonic';
+    font-size: 1rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#sub {
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    justify-content: center;
+}
+
+#motto {
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 1rem;
+    text-transform: capitalize;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+
+#countdown {
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ff00ff;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    box-shadow: 0 0 20px #ff00ff;
+    width: fit-content;
+    font-family: 'SDGlitch';
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rebeccapurple;
+    font-family: 'Neosonic';
+    font-size: 1.75rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.social-link {
+    background-color: transparent;
+    font-family: 'SDGlitchDemo';
+    text-decoration: none;
+    color: darkviolet;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    list-style: none;
+}
+
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px #8000ff;
+}
+
+#darkModeToggle {
+    background-color: #8000ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'SDGlitch';
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 0 15px #8000ff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#darkModeToggle:hover {
+    background-color: #4b0076;
+    box-shadow: 0 0 25px #cc00ff;
+}
+
+.footer {
+    position: relative;
+    top: 200px;
+    color: rebeccapurple;
+    font-family: 'SDGlitchDemo';
+}
