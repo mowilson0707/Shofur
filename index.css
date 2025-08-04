@@ -5,9 +5,7 @@
 
 @font-face {
     font-family: 'SDGlitch';
-    src: url('./SDGlitch_Demo.tff') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    src: url('./sdglitchdemo.regular.tff');
 }
 
 @media (max-width: 600px) {
@@ -260,6 +258,7 @@ section {
     color: rebeccapurple;
     font-family: 'SDGlitchDemo';
 }
+
 
 
 
