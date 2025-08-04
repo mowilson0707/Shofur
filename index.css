@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'SDGlitch';
+    font-family: sdglitch;
     src: url('./sdglitchdemo.regular.tff');
 }
 
@@ -50,7 +50,7 @@
 }
 
 body {
-    font-family: 'SDGlitch', sans-serif;
+    font-family: 'sdglitch', sans-serif;
     font-size: 16px;
     margin: 0;
     background: #f0f0f0;
@@ -72,7 +72,7 @@ body {
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    font-family: SDGlitchDemo;
+    font-family: 'sdglitch';
     border: 3px solid darkviolet;
     z-index: 10;
     top: 0;
@@ -101,7 +101,7 @@ a:hover {
 .banner {
     position: relative;
     box-sizing: border-box;
-    font-family: SDGlitchDemo;
+    font-family: 'sdglitch';
     font-size: 3rem;
     background-image: url('./banner2.jpg');
     background-size: cover;
@@ -173,7 +173,7 @@ a:hover {
     margin: 2rem auto;
     box-shadow: 0 0 20px #ff00ff;
     width: fit-content;
-    font-family: 'SDGlitch';
+    font-family: 'sdglitch';
 }
 
 .cursor {
@@ -198,7 +198,7 @@ a:hover {
 
 .social-link {
     background-color: transparent;
-    font-family: 'SDGlitchDemo';
+    font-family: 'sdglitch';
     text-decoration: none;
     color: darkviolet;
     font-size: 1.5rem;
@@ -237,7 +237,7 @@ section {
     color: white;
     border: none;
     padding: 10px 20px;
-    font-family: 'SDGlitch';
+    font-family: 'sdglitch';
     cursor: pointer;
     margin: 20px auto;
     display: block;
@@ -256,8 +256,9 @@ section {
     position: relative;
     top: 200px;
     color: rebeccapurple;
-    font-family: 'SDGlitchDemo';
+    font-family: 'sdglitch';
 }
+
 
 
 
