@@ -4,8 +4,10 @@
 }
 
 @font-face {
-    font-family: sdglitch;
-    src: url('./sdglitchdemo.regular.tff');
+    font-family: 'sdglitch';
+    src: url('./sdglitchdemo-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @media (max-width: 600px) {
@@ -258,6 +260,7 @@ section {
     color: rebeccapurple;
     font-family: 'sdglitch';
 }
+
 
 
 
