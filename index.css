@@ -1,3 +1,7 @@
+* { 
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: Neosonic;
     src: url('./Neosonic-PersonalUse.otf');
@@ -10,23 +14,27 @@
     font-style: normal;
 }
 
+/* Mobile-first media queries */
 @media (max-width: 600px) {
     #header {
         background-color: rgba(33, 19, 13, 0.7);
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #header {
         font-size: 2.5rem;
         width: 90%;
     }
+    section {
+        width: 100%;
+        max-width: 90%;
+        margin: 1rem auto;
+        padding: 1.5rem;
+    }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
-    .banner, .shofurinfo, body {
+@media (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+    .banner,
+    .shofurinfo {
         width: 90%;
     }
+
     .navbar ul {
         display: none;
         flex-direction: column;
@@ -209,10 +217,12 @@ a:hover {
 }
 
 section {
-    margin: 2rem auto;
-    padding: 2rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 90%;
+    box-sizing: border-box;
     border-radius: 10px;
-    max-width: 1000px;
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 20px #8000ff;
 }
@@ -260,6 +270,7 @@ section {
     color: rebeccapurple;
     font-family: 'sdglitch';
 }
+
 
 
 
