@@ -27,6 +27,10 @@
         margin: 1rem auto;
         padding: 1.5rem;
     }
+    #about {
+        max-width: 90%;
+        font-size: 0.95rem;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
@@ -148,12 +152,15 @@ a:hover {
 
 #about {
     position: relative;
-    margin-top: 3rem;
     color: rgb(80, 26, 131);
     font-family: 'Neosonic';
     font-size: 1rem;
     font-weight: 100;
     text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    margin: 3rem auto;
+    max-width: 800px;        /* NEW: limits width on desktop */
 }
 
 #sub {
@@ -270,6 +277,7 @@ section {
     color: rebeccapurple;
     font-family: 'sdglitch';
 }
+
 
 
 
