@@ -278,13 +278,17 @@ section {
     font-family: 'sdglitch';
 }
 
-#darkModeToggle .social-link a {
+.dark-mode a.social-link,
+.dark-mode .social-link a {
     color: white;
 }
 
-#darkModeToggle .social-link a:hover {
+.dark-mode a.social-link:hover,
+.dark-mode .social-link a:hover {
     color: #ff00ff;
 }
+
+
 
 
 
